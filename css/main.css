@@ -6,9 +6,17 @@ body {
     background-color: black;
     display: flex;
     flex-flow: row;
-    justify-content: space-around;
     height: 4vh;
     align-items: center;
+    justify-content: center;
+}
+
+.center {
+    align-items: center;
+    height: 4vh;
+    display: flex;
+    justify-content: space-around;
+    width: 50vw;
 }
 
 #arrow {
@@ -17,28 +25,44 @@ body {
     flex-flow: column; 
 }
 
+#box:hover {
+    border-top: orange solid 1vh;
+}
+
 #box {
     background-color: black;
     width: 10vw;
-    height: 5vh;
+    height: 7vh;
     display: flex; 
     justify-content: center;
+}
+
+.tab:hover {
+    border-bottom: 2px solid orange; 
 }
 
 .schoolName {
     color: white;
     font-size: 20px;
+    
 }
 
 #triangle {
     display: inline-block;
-
-    border-top: 50px solid black;
-    border-right: 95px solid transparent;
-    border-left: 95px solid transparent;
+    border-top: 5vh solid black;
+    border-right: 5vw solid transparent;
+    border-left: 5vw solid transparent;
 }
 
 .tab {
     color: white;
     text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.active {
+    border-bottom: 2px solid orange;
 }
