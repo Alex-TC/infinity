@@ -26,8 +26,9 @@ body {
 }
 
 #box:hover {
-    border-top: orange solid 1vh;
+    border-top: #cc0000 solid 1vh;
 }
+
 
 #box {
     background-color: black;
@@ -38,11 +39,11 @@ body {
 }
 
 .tab:hover {
-    border-bottom: 2px solid orange; 
+    border-bottom: 2px solid #cc0000;
 }
 
 .schoolName {
-    color: white;
+    color: #cc0000;
     font-size: 20px;
     
 }
@@ -52,7 +53,7 @@ body {
     border-top: 5vh solid black;
     border-right: 5vw solid transparent;
     border-left: 5vw solid transparent;
-}
+} 
 
 .tab {
     color: white;
@@ -64,5 +65,26 @@ a {
 }
 
 .active {
-    border-bottom: 2px solid orange;
+    border-bottom: 2px solid #cc0000;
+}
+
+#top {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+}
+
+#content {
+    background-color: grey;
+    margin-top: 11vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    height: 100vh;
+}
+
+#logo {
+    position: fixed;
+    top: 9.5vh;
+    left: 48.6vw;
+    height: 6vh;
 }
