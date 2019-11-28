@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    background-color: black;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    height: 4vh;
+    align-items: center;
+}
+
+#arrow {
+    display: flex;
+    align-items: center;
+    flex-flow: column; 
+}
+
+#box {
+    background-color: black;
+    width: 10vw;
+    height: 5vh;
+    display: flex; 
+    justify-content: center;
+}
+
+.schoolName {
+    color: white;
+    font-size: 20px;
+}
+
+#triangle {
+    display: inline-block;
+
+    border-top: 50px solid black;
+    border-right: 95px solid transparent;
+    border-left: 95px solid transparent;
+}
+
+.tab {
+    color: white;
+    text-decoration: none;
+}
