@@ -1,0 +1,85 @@
+.miHi {
+    font-size: 50px;
+    text-align: center;
+}
+
+.grade {
+    font-size: 30px;
+}
+
+#content {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    height: auto;
+    align-items: center;
+    margin: 15vh 0;
+    border: none;
+    padding: 0;
+
+}
+
+.mSchool,
+.hSchool {
+    background-color: black;
+    padding: 2vh 2vw;
+    margin: 2vh 0;
+    color: #cc0000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: black;
+
+    color: black;
+
+}
+
+.course{
+    background-color: white;
+    padding: 0.5vw;
+}
+
+.card {
+    display: flex;
+    flex-flow: column;
+    margin: 0 1vw;
+    border: 1px white solid;
+}
+
+.card1 {
+    border-top: 10vh solid yellow;
+}
+
+.card2 {
+    border-top: 10vh solid orange;
+}
+
+.card3 {
+    border-top: 10vh solid red;
+}
+
+.card4 {
+    border-top: 10vh solid yellow;
+}
+
+.card5 {
+    border-top: 10vh solid orange;
+}
+.card6 {
+    border-top: 10vh solid red;
+}
+
+.card7 {
+    border-top: 10vh solid black;
+}
+
+.card8 {
+    border-top: 10vh solid green;
+}

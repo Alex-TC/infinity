@@ -1,0 +1,15 @@
+body {
+    background-image: url("../assets/INFINITY.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#imageSpace{
+    height:100vh;
+}
+
+#content {
+    background-color: white;
+    margin: 0;
+    border:none;
+}
