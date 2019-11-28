@@ -44,8 +44,7 @@ body {
 
 .schoolName {
     color: #cc0000;
-    font-size: 20px;
-    
+    font-size: 20px; 
 }
 
 #triangle {
@@ -75,11 +74,24 @@ a {
 }
 
 #content {
-    background-color: grey;
+    border: solid 1px black;
+    padding: 5vh 5vw;
+    border-radius: 2px;
     margin-top: 11vh;
     margin-left: 10vw;
     margin-right: 10vw;
     height: 100vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center; 
+}
+
+.header {
+    font-size: 80px;
+}
+
+.info {
+    font-size: 20px;
 }
 
 #logo {
@@ -87,4 +99,16 @@ a {
     top: 9.5vh;
     left: 48.6vw;
     height: 6vh;
+}
+@media(max-width: 1460px) {
+    .schoolName {
+        font-size: 17px; 
+    }
+    #box {
+        width: 50vw;
+    }
+    #triangle {
+        border-right: 25vw solid transparent;
+        border-left: 25vw solid transparent;
+    }
 }
