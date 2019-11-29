@@ -29,21 +29,25 @@
     flex-direction: column;
     justify-content: center;
     border-radius: 5px;
+    width: 100vw;
 }
 
 .cards {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    justify-content: space-evenly;
     background-color: black;
-
     color: black;
-
+    margin: 2vh 0;
 }
 
 .course{
     background-color: white;
-    padding: 0.5vw;
+    padding: 2vw;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }
 
 .card {
@@ -51,36 +55,41 @@
     flex-flow: column;
     margin: 0 1vw;
     border: 1px white solid;
+    border-radius: 2px;
+    width: 20%;
+}
+
+.colorBlock {
+    height: 10vh;
 }
 
 .card1 {
-    border-top: 10vh solid yellow;
+    background-color: yellow;
 }
 
 .card2 {
-    border-top: 10vh solid orange;
+    background-color: orange;
 }
 
 .card3 {
-    border-top: 10vh solid red;
+    background-color: red;
 }
 
 .card4 {
-    border-top: 10vh solid yellow;
+    background-color: yellow;
 }
 
 .card5 {
-    border-top: 10vh solid orange;
+    background-color: orange;
 }
 .card6 {
-    border-top: 10vh solid red;
+    background-color: red;
 }
 
 .card7 {
-    border-top: 10vh solid black;
+    background-color: black;
 }
 
 .card8 {
-    border-top: 10vh solid green;
+    background-color: green;
 }
-
