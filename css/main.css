@@ -2,6 +2,11 @@ body {
     margin: 0;
     padding: 0;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 .nav {
     background-color: black;
     display: flex;
@@ -22,7 +27,18 @@ body {
 #arrow {
     display: flex;
     align-items: center;
-    flex-flow: column; 
+    flex-flow: column;
+}
+
+#arrowRow {
+    display: flex;
+    flex-flow: row;
+}
+
+.placeholderNav {
+    width: 45vw;
+    height: 7vh;
+    display: hidden;
 }
 
 #box:hover {
@@ -34,7 +50,7 @@ body {
     background-color: black;
     width: 10vw;
     height: 7vh;
-    display: flex; 
+    display: flex;
     justify-content: center;
 }
 
@@ -44,7 +60,7 @@ body {
 
 .schoolName {
     color: #cc0000;
-    font-size: 20px; 
+    font-size: 20px;
 }
 
 #triangle {
@@ -52,7 +68,7 @@ body {
     border-top: 5vh solid black;
     border-right: 5vw solid transparent;
     border-left: 5vw solid transparent;
-} 
+}
 
 .tab {
     color: white;
@@ -83,7 +99,7 @@ a {
     height: 100vh;
     display: flex;
     flex-flow: column;
-    align-items: center; 
+    align-items: center;
 }
 
 .header {
@@ -100,13 +116,16 @@ a {
     left: 48.6vw;
     height: 6vh;
 }
+
 @media(max-width: 1460px) {
     .schoolName {
-        font-size: 17px; 
+        font-size: 17px;
     }
+
     #box {
         width: 50vw;
     }
+
     #triangle {
         border-right: 25vw solid transparent;
         border-left: 25vw solid transparent;
