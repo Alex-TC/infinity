@@ -23,6 +23,7 @@ function visualise() {
         logo.style.display="flex";
         triangle.style.borderTop="5vh solid black";
         schoolName.style.display="flex";
+        
     } else if (window.pageYOffset < 815) {
         nav.style.backgroundColor="transparent";
         nav.style.backgroundImage="linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0.8)";
@@ -35,5 +36,21 @@ function visualise() {
         logo.style.display="none";
         triangle.style.borderTop="none";
         schoolName.style.display="none";
+    }
+}
+box.addEventListener('mouseenter', hoverCancel);
+box.addEventListener('mouseleave', hoverCancel);
+window.addEventListener('scroll', hoverCancel);
+box.addEventListener('load', hoverCancel);
+
+function hoverCancel(e) {
+    if (window.pageYOffset >= 815) {
+        if (e.type == 'mouseenter') {
+            box.style.borderTop='#cc0000 solid 1vh';
+        } else if (e.type == 'mouseleave') {
+            box.style.borderTop="none";
+        }
+    } else if (window.pageYOffset < 815) {
+        box.style.borderTop="none";
     }
 }
