@@ -11,31 +11,31 @@ window.addEventListener('load', visualise);
 window.addEventListener('scroll', visualise);
 
 function visualise() {
-    if(window.pageYOffset >= 815) {
-        nav.style.backgroundImage="none";
-        nav.style.backgroundColor="black";
-        box.style.backgroundImage="none";
-        box.style.backgroundColor="black";
-        placeholderNav[0].style.display="hidden";
-        placeholderNav[1].style.display="hidden";
-        placeholderNav[0].style.backgroundImage="none";
-        placeholderNav[1].style.backgroundImage="none";
-        logo.style.display="flex";
-        triangle.style.borderTop="5vh solid black";
-        schoolName.style.display="flex";
-        
+    if (window.pageYOffset >= 815) {
+        nav.style.backgroundImage = "none";
+        nav.style.backgroundColor = "black";
+        box.style.backgroundImage = "none";
+        box.style.backgroundColor = "black";
+        placeholderNav[0].style.display = "hidden";
+        placeholderNav[1].style.display = "hidden";
+        placeholderNav[0].style.backgroundImage = "none";
+        placeholderNav[1].style.backgroundImage = "none";
+        logo.style.display = "flex";
+        triangle.style.borderTop = "5vh solid black";
+        schoolName.style.display = "flex";
+
     } else if (window.pageYOffset < 815) {
-        nav.style.backgroundColor="transparent";
-        nav.style.backgroundImage="linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0.8)";
-        box.style.backgroundColor="transparent";
-        box.style.backgroundImage="linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0)";
-        placeholderNav[0].style.display="visible";
-        placeholderNav[0].style.backgroundImage="linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0)";
-        placeholderNav[1].style.display="visible";
-        placeholderNav[1].style.backgroundImage="linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0)";
-        logo.style.display="none";
-        triangle.style.borderTop="none";
-        schoolName.style.display="none";
+        nav.style.backgroundColor = "transparent";
+        nav.style.backgroundImage = "linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0.8)";
+        box.style.backgroundColor = "transparent";
+        box.style.backgroundImage = "linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0)";
+        placeholderNav[0].style.display = "visible";
+        placeholderNav[0].style.backgroundImage = "linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0)";
+        placeholderNav[1].style.display = "visible";
+        placeholderNav[1].style.backgroundImage = "linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0)";
+        logo.style.display = "none";
+        triangle.style.borderTop = "none";
+        schoolName.style.display = "none";
     }
 }
 box.addEventListener('mouseenter', hoverCancel);
@@ -46,11 +46,11 @@ box.addEventListener('load', hoverCancel);
 function hoverCancel(e) {
     if (window.pageYOffset >= 815) {
         if (e.type == 'mouseenter') {
-            box.style.borderTop='#cc0000 solid 1vh';
+            box.style.borderTop = '#cc0000 solid 1vh';
         } else if (e.type == 'mouseleave') {
-            box.style.borderTop="none";
+            box.style.borderTop = "none";
         }
-    } else if (window.pageYOffset < 815) {
-        box.style.borderTop="none";
+    } else if (window.pageYOffset < 10) {
+        box.style.borderTop = "none";
     }
 }

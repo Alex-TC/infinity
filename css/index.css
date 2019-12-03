@@ -4,13 +4,14 @@ body {
     background-repeat: no-repeat;
 }
 
-#imageSpace{
-    height:100vh;
+#imageSpace {
+    height: 100vh;
 }
 
 #content {
     background-color: white;
     margin: 0;
-    border:none;
+    border: none;
 }
 
+@media()

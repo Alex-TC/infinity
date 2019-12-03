@@ -45,7 +45,6 @@ html {
     border-top: #cc0000 solid 1vh;
 }
 
-
 #box {
     background-color: black;
     width: 10vw;
@@ -121,11 +120,9 @@ a {
     .schoolName {
         font-size: 17px;
     }
-
     #box {
         width: 50vw;
     }
-
     #triangle {
         border-right: 25vw solid transparent;
         border-left: 25vw solid transparent;
