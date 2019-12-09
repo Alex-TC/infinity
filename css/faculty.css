@@ -3,8 +3,48 @@
     width: 100vw;
     background: grey;
     /* margin; */
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2vh 2vw;
+}
+
+.department p {
+    font-size: 2rem;
 }
 
 #Math {
-    background-image: url();
+    background-color: red;
+}
+
+#Science {
+    background-color: green;
+}
+
+#English {
+    background-color: blue;
+}
+
+#History {
+    background-color: yellow;
+}
+
+
+/* #Arts {} */
+
+#WL {
+    background-color: orange;
+}
+
+#physEd {
+    background-color: blue;
+}
+
+#YMCA {
+    background-color: purple;
+}
+
+#Misc {
+    background-color: grey;
 }
