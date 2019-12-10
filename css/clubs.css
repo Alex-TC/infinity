@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(235,231,3);
+}
+
+.clubs {
+    height: 70vh;
+    width: 100vw;
+    background: grey;
+    /* margin; */
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2vh 2vw;
+}
+
+.clubs p {
+    font-size: 2rem;
+}
+
+#Clubs {
+    background-color: rgb(235,231,3);
+}
+
+#Tutoring{
+    background-color: #FFA900;
+}
+
+#YMCA{
+    background-color: #E94529;
+}
+
+#Soc{
+    background-color: #BC1220;
+}
+
+#Sports{
+    background-color: #8D0020;
+}
+
+.header {
+    font-size: 5rem;
+    color: white;
+}
+
+p {
+    color: white;
+}

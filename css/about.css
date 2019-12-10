@@ -1,0 +1,23 @@
+body {
+    background-color: #8D0020;
+}
+
+.department {
+    height: 70vh;
+    width: 100vw;
+    background: grey;
+    /* margin; */
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2vh 2vw;
+}
+.header {
+    font-size: 5rem;
+    color: white;
+}
+
+p {
+    color: white;
+}
