@@ -31,6 +31,7 @@ body {
     width: 15vw;
     background-color: white;
     border: 5px solid black;
+    border-radius: 5px;
 }
 
 .row {
@@ -57,5 +58,5 @@ body {
     display: flex;
     flex-flow: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
