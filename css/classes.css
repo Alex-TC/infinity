@@ -80,29 +80,33 @@ body {
 }
 
 .card4 {
-    background-color: yellow;
+    background-color: #FFFB00;
 }
 
 .card5 {
-    background-color: orange;
+    background-color: #FFA900;
 }
 
 .card6 {
-    background-color: red;
+    background-color: #E94529;
 }
 
 .card7 {
-    background-color: black;
+    background-color: #BC1220;
 }
 
 .card8 {
-    background-color: green;
+    background-color: #FFFB00;
 }
 
 .card9 {
-    background-color: green;
+    background-color: #FFA900;
 }
 
 .card10 {
-    background-color: green;
+    background-color: #E94529;
+}
+
+.card11 {
+    background-color: #BC1220;
 }
