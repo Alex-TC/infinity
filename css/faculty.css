@@ -1,3 +1,7 @@
+body {
+    background-color: #8D0020;
+}
+
 .department {
     height: 70vh;
     width: 100vw;
@@ -30,25 +34,40 @@
     background-color: #FFA900;
 }
 
-
-/* #Arts {} */
+#Arts {
+    background-color: rgb(235, 231, 3);
+}
 
 #WL {
-    background-color: #FFFB00;
+    background-color: #8D0020;
 }
 
 #physEd {
-    background-color:#8D0020;
-}
-
-#YMCA {
     background-color: #BC1220;
 }
 
-#Misc {
+#YMCA {
     background-color: #E94529;
+}
+
+#Misc {
+    background-color: #FFA900;
 }
 
 .header {
     font-size: 5rem;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+}
+
+p {
+    color: white;
+}
+
+#buttonLink {
+    text-decoration: none;
 }
