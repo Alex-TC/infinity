@@ -1,8 +1,8 @@
 body {
-    background-color: #8D0020;
+    background-color: #BD0020;
 }
 
-.department {
+.groupsInfo {
     height: 70vh;
     width: 100vw;
     background: grey;
@@ -13,6 +13,23 @@ body {
     justify-content: flex-start;
     padding: 2vh 2vw;
 }
+
+#about{
+    background-color: #BD0020;
+}
+
+#general{
+    background-color: #E94529;
+}
+
+#rank{
+    background-color: #FFA900;
+}
+
+#admin{
+    background-color: rgb(235,231,3);
+}
+
 .header {
     font-size: 5rem;
     color: white;
