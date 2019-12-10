@@ -15,38 +15,38 @@
 }
 
 #Math {
-    background-color: red;
+    background-color: #8D0020;
 }
 
 #Science {
-    background-color: green;
+    background-color: #BC1220;
 }
 
 #English {
-    background-color: blue;
+    background-color: #E94529;
 }
 
 #History {
-    background-color: yellow;
+    background-color: #FFA900;
 }
 
 
 /* #Arts {} */
 
 #WL {
-    background-color: orange;
+    background-color: #FFFB00;
 }
 
 #physEd {
-    background-color: blue;
+    background-color:#8D0020;
 }
 
 #YMCA {
-    background-color: purple;
+    background-color: #BC1220;
 }
 
 #Misc {
-    background-color: grey;
+    background-color: #E94529;
 }
 
 .header {
