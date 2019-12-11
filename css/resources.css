@@ -1,0 +1,81 @@
+.picture img {
+    height: 25vh;
+    width: auto;
+}
+
+.picture {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw;
+}
+
+.section {
+    display: flex;
+    flex-flow: row;
+    color: white;
+    width: 100vw;
+    padding: 2vh 2vw;
+}
+
+#space {
+    height: 5vh;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.text {
+    font-size: 3vh;
+    font-family: 'Lato', sans-serif;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vw;
+}
+
+#albertPic {
+    width: 15vw;
+    height: 10vh;
+}
+
+.desc {
+    text-align: center;
+}
+
+#classroom {
+    background-color: aliceblue;
+    color: grey;
+}
+
+#campus {
+    background-color: #92c83e;
+    color: white;
+}
+
+#khan {
+    background-color: #0a2a66;
+    color: white;
+}
+
+#ixl {
+    background-color: white;
+    color: #00a1de;
+}
+
+#turnitin {
+    background-color: white;
+    color: #ec0000;
+}
+
+#ymca {
+    background-color: #dd5828;
+}
+
+#albert {
+    background-color: white;
+    color: #2475b6;
+}
