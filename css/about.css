@@ -3,10 +3,9 @@ body {
 }
 
 .groupsInfo {
-    height: 70vh;
+    height: auto;
     width: 100vw;
-    background: grey;
-    /* margin; */
+    /* background: grey; */
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -31,7 +30,11 @@ body {
 }
 
 #mascot {
-    background-color: #8D0020
+    background-color: #8D0020;
+    display: flex;
+    flex-flow: column;
+    height: auto;
+    /* padding: 2vh; */
 }
 
 .header {
@@ -48,4 +51,10 @@ p {
 .info {
     /* font-size: 20px; */
     font-size: 3vh;
+}
+
+#mas {
+    height: 40vh;
+    width: auto;
+    transform: rotate(90deg);
 }
