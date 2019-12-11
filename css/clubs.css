@@ -1,9 +1,9 @@
 body {
-    background-color: rgb(235,231,3);
+    background-color: rgb(235, 231, 3);
 }
 
 .clubs {
-    height: 70vh;
+    height: auto;
     width: 100vw;
     background: grey;
     /* margin; */
@@ -15,31 +15,33 @@ body {
 }
 
 .clubs p {
-    font-size: 2rem;
+    font-size: 3vh;
+    font-family: 'Lato', sans-serif;
 }
 
 #Clubs {
-    background-color: rgb(235,231,3);
+    background-color: rgb(235, 231, 3);
 }
 
-#Tutoring{
+#Tutoring {
     background-color: #FFA900;
 }
 
-#YMCA{
+#YMCA {
     background-color: #E94529;
 }
 
-#Soc{
+#Soc {
     background-color: #BC1220;
 }
 
-#Sports{
+#Sports {
     background-color: #8D0020;
+    height: auto;
 }
 
 .header {
-    font-size: 5rem;
+    font-size: 8vh;
     color: white;
 }
 

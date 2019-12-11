@@ -15,7 +15,8 @@ body {
 }
 
 .department p {
-    font-size: 2rem;
+    font-size: 3vh;
+    font-family: 'Lato', sans-serif;
 }
 
 #Math {
@@ -50,12 +51,13 @@ body {
     background-color: #E94529;
 }
 
+
 /* #Misc {
     background-color: #FFA900;
 } */
 
 .header {
-    font-size: 5rem;
+    font-size: 8vh;
     color: white;
 }
 

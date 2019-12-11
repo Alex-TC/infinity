@@ -59,7 +59,7 @@ html {
 
 .schoolName {
     color: #cc0000;
-    font-size: 20px;
+    font-size: 2vh;
 }
 
 #triangle {
@@ -72,6 +72,8 @@ html {
 .tab {
     color: white;
     text-decoration: none;
+    font-size: 2vh;
+    font-family: 'Gelasio', serif;
 }
 
 a {
@@ -102,11 +104,9 @@ a {
 }
 
 .header {
-    font-size: 80px;
-}
-
-.info {
-    font-size: 20px;
+    /* font-size: 80px; */
+    font-size: 9vh;
+    font-family: 'Gelasio', serif;
 }
 
 #logo {
@@ -116,9 +116,10 @@ a {
     height: 6vh;
 }
 
-@media(max-width: 1460px) {
+
+/* @media(max-width: 1460px) {
     .schoolName {
-        font-size: 17px;
+        font-size: 2vh;
     }
     #box {
         width: 50vw;
@@ -127,4 +128,4 @@ a {
         border-right: 25vw solid transparent;
         border-left: 25vw solid transparent;
     }
-}
+} */

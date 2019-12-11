@@ -14,27 +14,34 @@ body {
     padding: 2vh 2vw;
 }
 
-#about{
+#about {
     background-color: #BD0020;
 }
 
-#general{
+#general {
     background-color: #E94529;
 }
 
-#rank{
+#rank {
     background-color: #FFA900;
 }
 
-#admin{
-    background-color: rgb(235,231,3);
+#admin {
+    background-color: rgb(235, 231, 3);
 }
 
 .header {
-    font-size: 5rem;
+    font-size: 8vh;
+    /* font-size: 5rem; */
     color: white;
 }
 
 p {
     color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.info {
+    /* font-size: 20px; */
+    font-size: 3vh;
 }
